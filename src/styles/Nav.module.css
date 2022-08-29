@@ -1,0 +1,32 @@
+.nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 21px 0 11px 0;
+}
+.nav__left {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 35%;
+}
+.city {
+    display: flex;
+    align-items: center;
+}
+.img_city {
+    margin-right: 6px;
+}
+.city__name {
+    font-weight: 700;
+    font-size: 18px;
+}
+.nav__item {
+    color: #1D1818;
+}
+
+.nav__right {
+    display: flex;
+    width: 15%;
+    justify-content: space-between;
+}

@@ -1,0 +1,5 @@
+export const ADD_CART = "ADD_CART"
+export const REMOVE_CART = "REMOVE_CART"
+export const ADD_NUMBER = "ADD_NUMBER"
+export const SUB_NUMBER = "SUB_NUMBER"
+export const REMOVE_ALL = "REMOVE_ALL"

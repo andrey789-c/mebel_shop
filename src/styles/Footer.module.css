@@ -1,0 +1,48 @@
+.footer {
+    margin-top: 82px;
+    background-color: #384685;
+    padding: 42px 0;
+    color: white;
+}
+
+.block {
+    display: flex;
+    align-items: start;
+}
+
+.right {
+    width: 399px;
+}
+
+.logo {
+    margin-bottom: 36px;
+}
+
+.phone {
+    font-weight: 700;
+    font-size: 20px;
+    margin-bottom: 21px;
+}
+
+.item {
+    display: flex;
+    align-items: center;
+    margin-bottom: 15px;
+}
+.value {
+    font-weight: 400;
+    font-size: 18px;
+    width: 120px;
+    display: block;
+}
+
+.list {
+    display: flex;
+    justify-content: space-between;
+    width: 70%;
+}
+.list__link {
+    color: white;
+    font-weight: 700;
+    font-size: 20px;
+}

@@ -1,0 +1,33 @@
+.block {
+    background: #D7D7D7;
+    box-shadow: 2px 2px 10px 1px rgba(0, 0, 0, 0.1);
+    border-radius: 5px;
+    padding: 33px 36px;
+}
+.title {
+    font-weight: 700;
+    font-size: 20px;
+    margin-bottom: 41px;
+}
+.form {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+.form__item {
+    width: 50%;
+    margin-bottom: 17px;
+}
+.form__label {
+    display: block;
+    font-size: 18px;
+    margin-bottom: 12px;
+}
+.form__input {
+    display: block;
+    width: 70%;
+    background: #F3F3F3;
+    box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.1);
+    border-radius: 5px;
+    padding: 20px 17px;
+}

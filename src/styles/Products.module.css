@@ -1,0 +1,75 @@
+.title {
+    font-weight: 700;
+    font-size: 30px;
+    margin-bottom: 39px;
+    text-transform: uppercase;
+}
+
+.list {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    width: 100%;
+    height: 600px;
+}
+.item {
+    width: 25%;
+    padding: 10px;
+    margin-bottom: 50px;
+}
+
+.photo {
+    display: block;
+    margin-bottom: 34px;
+    height: 200px;
+}
+.photo img  {
+    width: 100%;
+    height: 100%;
+}
+.item__title {
+    font-size: 18px;
+    margin-bottom: 34px;
+}
+.prices {
+    border-top: 1px solid #E2E2E2;
+    border-bottom: 1px solid #E2E2E2;
+    display: flex;
+    padding: 12px 0 22px;
+    align-items: center;
+    margin-bottom: 12px;
+}
+.prices__old {
+    font-size: 18px;
+    text-decoration-line: line-through;
+    color: #BDBDBD;
+    margin-right: 12px;
+}
+.prices__new {
+    font-weight: 700;
+    font-size: 25px;
+}
+
+.buttons {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.buy {
+    border: 1px solid #384685;
+    border-radius: 5px;
+    font-weight: 700;
+    font-size: 20px;
+    color: #1D1818;
+    background-color: transparent;
+    padding: 15px 0;
+    width: calc((166 / 220) * 100%);
+    transition: .3s;
+}
+.buy:hover {
+    background-color: #384685;
+    color: white;
+}
+.like {
+    background-color: transparent;
+}

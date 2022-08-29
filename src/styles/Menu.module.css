@@ -1,0 +1,33 @@
+.wrapper {
+    background: #A8D1E7;
+    margin-bottom: 42px;
+}
+.menu {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.item {
+    padding: 18px 10px 20px;
+    color: black;
+    font-weight: 700;
+    font-size: 20px;
+    text-transform: uppercase;
+    color: #1D1818;
+    transition: .3s;
+}
+
+.item:hover {
+    background-color: rgb(222, 222, 222);
+}
+.main {
+    background: #384685;
+    border-radius: 5px;
+    color: white;
+    padding: 18px 12px 20px;
+    transition: .3s;
+}
+
+.main:hover {
+    background: #1e2956;
+}
